@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+        <title>Interests</title>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                let theme = document.querySelector('.button-theme');
+                theme.addEventListener('click', function() {
+                    document.body.classList.toggle('dark-mode');
+                })
+            })
+        </script>
+    </head>
+    <body>
+        <nav class="top">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="hobbies.html">Hobbies</a></li>
+                <li><a href="interests.html">Interests</a></li>
+                <li class="right-float"><a href="contact.html">Contact</a></li>
+                <li><button class="button-theme">Switch themes</button></li>
+            </ul>
+        </nav>
+        <div id="content">
+            <section class="paragraphs">
+                <h2 class="title_h">Medicine</h2>
+                <p>
+                    Yep. Why does a medical student have to do with coding? Why is he doing this?
+                    Honestly, I don't even know what I want to do. I love coding. But still I also like medicine.
+                    If I have to choose one, I'd choose coding. Let's go back to my medical career. Well I'm a second year student
+                    who doesn't do well in the semesters. And the pandemic hits me pretty hard so I'm thinking about
+                    switching carreer.
+                </p>
+            </section>
+            <section class="paragraphs">
+                <h2 class="title_h">Coding</h2>
+                <p>
+                    I love coding. I love it. I'm bored in quarantine so I started to learning coding in May.
+                    I tried <a href="https://www.theodinproject.com/" target="_blank">The Odin Project</a>
+                    but I felt like I lack fundamentals and then I found <a href="https://learning.edx.org/course/course-v1:HarvardX+CS50+X/home">
+                    CS50</a> which is a golden treasure for me. So, you might've know I'm currently in week8
+                    and I'd love to going forward thru this course. I want coding to be my career.
+                </p>
+            </section>
+        </div>
+        <footer>
+            CopyRights &#169; 2021 by Marco.
+        </footer>
+    </body>
+</html>
